@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity4"
+    android:background="@drawable/futuristic">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif"
+        android:text="GadGETs"
+        android:textAllCaps="false"
+        android:textColor="#D3CBCA"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/deliverydate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Select delivery date:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#AAEFE9"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/confirmorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Order"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="#FFFF"/>
+
+        <CalendarView
+            android:id="@+id/calendar1"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"/>
+
+</RelativeLayout>

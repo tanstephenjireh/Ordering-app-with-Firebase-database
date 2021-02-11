@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2"
+    android:background="@drawable/futuristic">
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="300dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A69E9C"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/customercode"
+        android:layout_width="150dp"
+        android:layout_height="78dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/code"
+        android:layout_marginTop="15dp"
+        android:text="Customer code" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:fontFamily="serif"
+        android:text="GadGETs"
+        android:textAllCaps="false"
+        android:textColor="#D3CBCA"
+        android:textSize="65sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:text="    THE WORLD'S LEADING GADGETS SHOPPING APP"
+        android:textColor="#D3CBCA"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="550dp"
+        android:text="Next" />
+
+</RelativeLayout>

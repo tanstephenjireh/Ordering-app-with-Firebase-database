@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abeezee_italic</item>
+        <item>@font/aclonica</item>
+        <item>@font/adamina</item>
+        <item>@font/advent_pro_light</item>
+        <item>@font/advent_pro_medium</item>
+        <item>@font/advent_pro_semibold</item>
+        <item>@font/arbutus</item>
+        <item>@font/open_sans_bold</item>
+        <item>@font/open_sans_semibold</item>
+    </array>
+</resources>

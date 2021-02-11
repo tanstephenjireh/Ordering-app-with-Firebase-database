@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/futuristic">
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/passwordInput" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:fontFamily="serif"
+        android:text="GadGETs"
+        android:textAllCaps="false"
+        android:textColor="#D3CBCA"
+        android:textSize="65sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:text="    THE WORLD'S LEADING GADGETS SHOPPING APP"
+        android:textColor="#D3CBCA"
+        android:textStyle="italic" />
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/nameInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_centerHorizontal="true"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="#AAEFE9"
+        android:textColorHint="#A69E9C"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/contactInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameInput"
+        android:layout_centerHorizontal="true"
+        android:hint="Phone"
+        android:inputType="textPersonName"
+        android:textColor="#AAEFE9"
+        android:textColorHint="#A69E9C"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+
+        android:id="@+id/emailInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/homeInput"
+        android:layout_centerHorizontal="true"
+        android:hint="Email Address"
+        android:inputType="textPersonName"
+        android:textColor="#AAEFE9"
+        android:textColorHint="#A69E9C"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+
+        android:id="@+id/passwordInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailInput"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        android:password="true"
+        android:inputType="textPersonName"
+        android:textColor="#AAEFE9"
+        android:textColorHint="#A69E9C"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/homeInput"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactInput"
+        android:layout_centerHorizontal="true"
+        android:hint="Home Address"
+        android:textColorHint="#A69E9C"
+        android:inputType="textPostalAddress"
+        android:textColor="#AAEFE9" />
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/register"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:text="Already Registered? Click Here to Sign in"
+        android:textColor="#EFFF0C" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

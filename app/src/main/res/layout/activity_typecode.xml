@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Typecode"
+    android:background="@drawable/futuristic">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="280dp"
+        android:text="Type customer code:"
+        android:textColor="#F8EFEC"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/typecode"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textSize="40sp"
+        android:textColorHint="#A69E9C"
+        android:textColor="#AAEFE9" />
+
+    <Button
+        android:id="@+id/proceedtoorder"
+        android:layout_width="160dp"
+        android:layout_height="78dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/typecode"
+        android:text="Proceed to Order" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:fontFamily="serif"
+        android:text="GadGETs"
+        android:textAllCaps="false"
+        android:textColor="#D3CBCA"
+        android:textSize="65sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/advent_pro_semibold"
+        android:text="    THE WORLD'S LEADING GADGETS SHOPPING APP"
+        android:textColor="#D3CBCA"
+        android:textStyle="italic" />
+
+
+
+</RelativeLayout>
